@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: roboto, sans-serif;
+}
+
+body {
+    background-color: #CEDEBD;
+    justify-content: center;
+    display:grid ;
+    margin: 250px;
+}
+
+h1 {
+    color: #435334;
+    margin-bottom: 20px;
+    justify-content: center;
+    display: grid;
+}
+
+button {
+    background-color: #96C291;
+    color: #fff;
+    border: none;
+    font-weight: bold;
+    text-transform: capitalize;  
+}
+
+button, #nome-tarefa {
+    padding: 10px; 
+}
+
+li, button {
+    cursor: pointer;
+}
+
+ul {
+    justify-content: center;
+    display: grid;
+    margin-top: 25px;
+}
+
